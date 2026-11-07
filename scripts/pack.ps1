@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [ValidateSet('All')]
+    [ValidateSet('All', 'SleepOnAnyBed')]
     [string] $Mod = 'All',
     [ValidateSet('Debug', 'Release')]
     [string] $Configuration = 'Release'

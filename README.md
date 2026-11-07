@@ -4,6 +4,7 @@ Small, independently installable mods for Stardew Valley.
 
 | Mod | Features | Dependencies beyond SMAPI |
 | --- | --- | --- |
+| [SleepOnAnyBed](mods/SleepOnAnyBed) | Sleep in beds outside the farmhouse | None |
 
 ## Development
 
@@ -23,4 +24,4 @@ To add a mod, register its directory and package files in `scripts/common.ps1` a
 
 ## Licenses
 
-Each mod includes its own license.
+Included mods use MIT. See each mod's `LICENSE` for details.

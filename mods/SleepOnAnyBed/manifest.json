@@ -1,0 +1,10 @@
+{
+  "Name": "Sleep On Any Bed",
+  "Author": "Gvxwsur",
+  "Version": "1.0.5",
+  "Description": "Lets players trigger the normal sleep prompt from any bed, including beds outside the farmhouse.",
+  "UniqueID": "Gvxwsur.SleepOnAnyBed",
+  "EntryDll": "SleepOnAnyBed.dll",
+  "MinimumApiVersion": "4.5.2",
+  "UpdateKeys": []
+}

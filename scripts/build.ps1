@@ -1,17 +1,12 @@
 [CmdletBinding()]
 param(
-    [ValidateSet('All')]
+    [ValidateSet('All', 'SleepOnAnyBed')]
     [string] $Mod = 'All',
     [ValidateSet('Debug', 'Release')]
     [string] $Configuration = 'Release'
 )
 
 . "$PSScriptRoot/common.ps1"
-
-if ($ModCatalog.Count -eq 0) {
-    Write-Host 'No mods registered yet.'
-    return
-}
 
 $target = if ($Mod -eq 'All') {
     Join-Path $RepositoryRoot 'Stardew.GameplayTweaks.sln'
