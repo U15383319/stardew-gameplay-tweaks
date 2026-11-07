@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggerBackpack", "mods\Much
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestroyableTownTrees", "mods\DestroyableTownTrees\DestroyableTownTrees.csproj", "{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatEnhanced", "mods\CombatEnhanced\CombatEnhanced.csproj", "{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,18 @@ Global
 		{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9}.Release|x64.Build.0 = Release|Any CPU
 		{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9}.Release|x86.ActiveCfg = Release|Any CPU
 		{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9}.Release|x86.Build.0 = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|x64.Build.0 = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +79,6 @@ Global
 		{F92BF615-7CA4-4940-83CF-E801892D03C7} = {ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}
 		{F6C11FBF-4529-423C-B24A-3906C6D95189} = {ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}
 		{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9} = {ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}
+		{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34} = {ED7DE66D-1FF1-BCCD-393E-2D4AFCA661A0}
 	EndGlobalSection
 EndGlobal

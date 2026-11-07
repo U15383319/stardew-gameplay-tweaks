@@ -8,6 +8,7 @@ Small, independently installable mods for Stardew Valley.
 | [MuchBiggerBackpack](mods/MuchBiggerBackpack) | Configurable backpack capacity and upgrade price | StardewHack |
 | [EventLookupReadableLocations](mods/EventLookupReadableLocations) | Readable English and Chinese location names for vanilla and expansion maps | Content Patcher, Event Lookup |
 | [DestroyableTownTrees](mods/DestroyableTownTrees) | Chop normally protected trees in Pelican Town | None |
+| [CombatEnhanced](mods/CombatEnhanced) | Move while attacking and cancel between normal attacks and specials | Optional: Generic Mod Config Menu |
 
 ## Development
 
@@ -16,6 +17,7 @@ Requires a .NET SDK supporting `net6.0` and a SMAPI-enabled game installation. C
 ```powershell
 Copy-Item Directory.Build.local.props.example Directory.Build.local.props
 .\scripts\build.ps1                              # Build all C# mods
+.\scripts\build.ps1 -Mod CombatEnhanced           # Build one mod
 .\scripts\pack.ps1                               # Create separate ZIPs for all mods
 .\scripts\pack.ps1 -Mod EventLookupReadableLocations
 ```
@@ -28,4 +30,4 @@ To add a mod, register its directory and package files in `scripts/common.ps1` a
 
 ## Licenses
 
-EventLookupReadableLocations uses [CC BY-NC-SA 4.0](mods/EventLookupReadableLocations/LICENSE). The other included mods use MIT. MuchBiggerBackpack retains its original author credits and copyright notice. See each mod's `LICENSE` for details.
+EventLookupReadableLocations uses [CC BY-NC-SA 4.0](mods/EventLookupReadableLocations/LICENSE). The other four mods use MIT. MuchBiggerBackpack retains its original author credits and copyright notice. See each mod's `LICENSE` for details.

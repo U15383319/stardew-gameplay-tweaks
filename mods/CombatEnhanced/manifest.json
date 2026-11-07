@@ -1,0 +1,16 @@
+{
+  "Name": "Combat Enhanced",
+  "Author": "Gvxwsur",
+  "Version": "1.0.0",
+  "Description": "Lets players move while attacking with melee weapons, weapon specials and slingshots, and lets left-click attacks and right-click specials cancel each other.",
+  "UniqueID": "Gvxwsur.CombatEnhanced",
+  "EntryDll": "CombatEnhanced.dll",
+  "MinimumApiVersion": "4.5.2",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ],
+  "UpdateKeys": []
+}

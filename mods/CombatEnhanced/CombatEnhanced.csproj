@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>CombatEnhanced</AssemblyName>
+    <RootNamespace>CombatEnhanced</RootNamespace>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony" HintPath="$(GamePath)\smapi-internal\0Harmony.dll" Private="false" />
+    <Reference Include="MonoGame.Framework" HintPath="$(GamePath)\MonoGame.Framework.dll" Private="false" />
+    <Reference Include="Stardew Valley" HintPath="$(GamePath)\Stardew Valley.dll" Private="false" />
+    <Reference Include="StardewValley.GameData" HintPath="$(GamePath)\StardewValley.GameData.dll" Private="false" />
+    <Reference Include="StardewModdingAPI" HintPath="$(GamePath)\StardewModdingAPI.dll" Private="false" />
+    <Reference Include="SMAPI.Toolkit.CoreInterfaces" HintPath="$(GamePath)\smapi-internal\SMAPI.Toolkit.CoreInterfaces.dll" Private="false" />
+    <Reference Include="xTile" HintPath="$(GamePath)\xTile.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="manifest.json" CopyToOutputDirectory="Always" />
+    <None Include="i18n\*.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>

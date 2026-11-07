@@ -1,0 +1,25 @@
+{
+  "config.section.movement": "Move while attacking",
+  "config.move-while-attacking.name": "Melee attacks",
+  "config.move-while-attacking.tooltip": "Allow moving during a normal (left-click) melee weapon attack.",
+  "config.move-while-special.name": "Weapon specials",
+  "config.move-while-special.tooltip": "Allow moving during a melee weapon special move (right-click): sword block, dagger flurry and club smash.",
+  "config.move-while-slingshot.name": "Slingshot",
+  "config.move-while-slingshot.tooltip": "Allow moving while pulling back a slingshot.",
+  "config.move-speed.name": "Speed while attacking",
+  "config.move-speed.tooltip": "Movement speed while attacking, relative to your normal speed.",
+  "config.moving-hop.name":"Hop while moving",
+  "config.moving-hop.tooltip": "Show the vanilla little hop animation when moving while attacking.",
+
+  "config.section.cancel": "Attack cancelling",
+  "config.special-cancels-attack.name": "Special cancels attack",
+  "config.special-cancels-attack.tooltip": "Right-click during a normal attack to cancel it and use the weapon special immediately (if it's off cooldown).",
+  "config.attack-cancels-special.name": "Attack cancels special",
+  "config.attack-cancels-special.tooltip": "Left-click during a weapon special to cancel it and attack immediately.",
+
+  "config.section.hold": "Hold to repeat",
+  "config.hold-attack.name": "Hold to attack",
+  "config.hold-attack.tooltip": "Keep attacking while the attack button (left click) is held.",
+  "config.hold-special.name": "Hold to use special",
+  "config.hold-special.tooltip": "Keep using the weapon special whenever it's off cooldown while the special button (right click) is held."
+}

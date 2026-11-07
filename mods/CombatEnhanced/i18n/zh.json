@@ -1,0 +1,25 @@
+{
+  "config.section.movement": "边移动边攻击",
+  "config.move-while-attacking.name": "近战普通攻击",
+  "config.move-while-attacking.tooltip": "允许在近战武器普通攻击（左键）时移动。",
+  "config.move-while-special.name": "武器特殊技能",
+  "config.move-while-special.tooltip": "允许在近战武器特殊技能（右键）时移动：剑的格挡、匕首连刺、锤子重击。",
+  "config.move-while-slingshot.name": "弹弓",
+  "config.move-while-slingshot.tooltip": "允许在拉弹弓蓄力时移动。",
+  "config.move-speed.name": "攻击时移动速度",
+  "config.move-speed.tooltip": "攻击时的移动速度，相对于正常移动速度的比例。",
+  "config.moving-hop.name":"移动时跳动",
+  "config.moving-hop.tooltip": "攻击中移动时显示原版的小跳动画。",
+
+  "config.section.cancel": "攻击取消",
+  "config.special-cancels-attack.name": "特殊技能取消普通攻击",
+  "config.special-cancels-attack.tooltip": "普通攻击时按右键，立即取消当前攻击并释放武器特殊技能（需技能已冷却完毕）。",
+  "config.attack-cancels-special.name": "普通攻击取消特殊技能",
+  "config.attack-cancels-special.tooltip": "特殊技能释放中按左键，立即取消技能并进行普通攻击。",
+
+  "config.section.hold": "长按连续触发",
+  "config.hold-attack.name": "长按连续攻击",
+  "config.hold-attack.tooltip": "按住攻击键（左键）时持续进行普通攻击。",
+  "config.hold-special.name": "长按连续释放技能",
+  "config.hold-special.tooltip": "按住特殊技能键（右键）时，技能每次冷却完毕就自动释放。"
+}
