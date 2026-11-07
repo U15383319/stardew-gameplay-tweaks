@@ -1,0 +1,20 @@
+{
+  "Name": "Event Lookup Readable Locations",
+  "Author": "Gvxwsur",
+  "Version": "1.0.0",
+  "Description": "Adds readable, localized location names for Event Lookup, covering vanilla Stardew Valley and multiple large expansion mods.",
+  "UniqueID": "Gvxwsur.EventLookupReadableLocations",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.0.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "shekurika.EventLookup",
+      "MinimumVersion": "0.2.8",
+      "IsRequired": true
+    }
+  ]
+}

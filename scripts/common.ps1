@@ -7,6 +7,7 @@ $RepositoryRoot = Split-Path -Parent $PSScriptRoot
 $ModCatalog = [ordered]@{
     SleepOnAnyBed = @{ Project = 'SleepOnAnyBed.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE') }
     MuchBiggerBackpack = @{ Project = 'BiggerBackpack.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'backpack.png', 'JunimoNote.png', 'i18n/*.json') }
+    EventLookupReadableLocations = @{ Project = $null; Files = @('manifest.json', 'README.md', 'LICENSE', 'content.json', 'i18n/*.json') }
 }
 
 function Get-SelectedMods([string] $Name) {
