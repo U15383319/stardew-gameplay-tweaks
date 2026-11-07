@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [ValidateSet('All', 'SleepOnAnyBed', 'MuchBiggerBackpack', 'EventLookupReadableLocations')]
+    [ValidateSet('All', 'SleepOnAnyBed', 'MuchBiggerBackpack', 'EventLookupReadableLocations', 'DestroyableTownTrees')]
     [string] $Mod = 'All',
     [ValidateSet('Debug', 'Release')]
     [string] $Configuration = 'Release'

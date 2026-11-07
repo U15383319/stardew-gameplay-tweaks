@@ -7,6 +7,7 @@ Small, independently installable mods for Stardew Valley.
 | [SleepOnAnyBed](mods/SleepOnAnyBed) | Sleep in beds outside the farmhouse | None |
 | [MuchBiggerBackpack](mods/MuchBiggerBackpack) | Configurable backpack capacity and upgrade price | StardewHack |
 | [EventLookupReadableLocations](mods/EventLookupReadableLocations) | Readable English and Chinese location names for vanilla and expansion maps | Content Patcher, Event Lookup |
+| [DestroyableTownTrees](mods/DestroyableTownTrees) | Chop normally protected trees in Pelican Town | None |
 
 ## Development
 

@@ -1,0 +1,10 @@
+{
+  "Name": "Destroyable Town Trees",
+  "Author": "Gvxwsur",
+  "Version": "1.0.0",
+  "Description": "Allows players to chop normally protected trees in Pelican Town.",
+  "UniqueID": "Gvxwsur.DestroyableTownTrees",
+  "EntryDll": "DestroyableTownTrees.dll",
+  "MinimumApiVersion": "4.5.2",
+  "UpdateKeys": []
+}

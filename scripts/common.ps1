@@ -8,6 +8,7 @@ $ModCatalog = [ordered]@{
     SleepOnAnyBed = @{ Project = 'SleepOnAnyBed.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE') }
     MuchBiggerBackpack = @{ Project = 'BiggerBackpack.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'backpack.png', 'JunimoNote.png', 'i18n/*.json') }
     EventLookupReadableLocations = @{ Project = $null; Files = @('manifest.json', 'README.md', 'LICENSE', 'content.json', 'i18n/*.json') }
+    DestroyableTownTrees = @{ Project = 'DestroyableTownTrees.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE') }
 }
 
 function Get-SelectedMods([string] $Name) {
