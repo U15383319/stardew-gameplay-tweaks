@@ -1,0 +1,8 @@
+<Project>
+  <Target Name="ValidateLocalGameReferences" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(GamePath)/StardewModdingAPI.dll')"
+           Text="Set GamePath to your SMAPI-enabled game directory in Directory.Build.local.props, or pass -p:GamePath=... to dotnet build." />
+    <Error Condition="'$(AssemblyName)' == 'MuchBiggerBackpack' And !Exists('$(StardewHackPath)')"
+           Text="Set StardewHackPath to the installed StardewHack.dll in Directory.Build.local.props." />
+  </Target>
+</Project>

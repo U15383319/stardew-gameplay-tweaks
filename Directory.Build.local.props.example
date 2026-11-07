@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- Copy to Directory.Build.local.props and set your local paths. -->
+    <GamePath>REPLACE_WITH_YOUR_GAME_DIRECTORY</GamePath>
+    <StardewHackPath>$(GamePath)/Mods/StardewHack/StardewHack.dll</StardewHackPath>
+  </PropertyGroup>
+</Project>

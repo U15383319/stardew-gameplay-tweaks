@@ -1,0 +1,11 @@
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)Directory.Build.local.props"
+          Condition="Exists('$(MSBuildThisFileDirectory)Directory.Build.local.props')" />
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <EnableModDeploy>false</EnableModDeploy>
+    <EnableModZip>false</EnableModZip>
+    <StardewHackPath Condition="'$(StardewHackPath)' == ''">$(GamePath)/Mods/StardewHack/StardewHack.dll</StardewHackPath>
+  </PropertyGroup>
+</Project>
