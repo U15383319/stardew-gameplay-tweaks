@@ -6,6 +6,7 @@ $RepositoryRoot = Split-Path -Parent $PSScriptRoot
 # cannot accidentally enter release archives.
 $ModCatalog = [ordered]@{
     SleepOnAnyBed = @{ Project = 'SleepOnAnyBed.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE') }
+    MuchBiggerBackpack = @{ Project = 'BiggerBackpack.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'backpack.png', 'JunimoNote.png', 'i18n/*.json') }
 }
 
 function Get-SelectedMods([string] $Name) {

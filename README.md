@@ -5,6 +5,7 @@ Small, independently installable mods for Stardew Valley.
 | Mod | Features | Dependencies beyond SMAPI |
 | --- | --- | --- |
 | [SleepOnAnyBed](mods/SleepOnAnyBed) | Sleep in beds outside the farmhouse | None |
+| [MuchBiggerBackpack](mods/MuchBiggerBackpack) | Configurable backpack capacity and upgrade price | StardewHack |
 
 ## Development
 
@@ -24,4 +25,4 @@ To add a mod, register its directory and package files in `scripts/common.ps1` a
 
 ## Licenses
 
-Included mods use MIT. See each mod's `LICENSE` for details.
+Included mods use MIT. MuchBiggerBackpack retains its original author credits and copyright notice. See each mod's `LICENSE` for details.
