@@ -1,4 +1,4 @@
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 public sealed class ModConfig
 {

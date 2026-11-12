@@ -1,0 +1,16 @@
+{
+  "Name": "Fluid Combat",
+  "Author": "Gvxwsur",
+  "Version": "1.0.0",
+  "Description": "Move while attacking, cancel between melee attacks and specials, hold buttons to repeat attacks, and face the mouse cursor when starting melee attacks.",
+  "UniqueID": "Gvxwsur.FluidCombat",
+  "EntryDll": "FluidCombat.dll",
+  "MinimumApiVersion": "4.5.2",
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    }
+  ],
+  "UpdateKeys": []
+}

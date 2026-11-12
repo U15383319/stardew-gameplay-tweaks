@@ -9,7 +9,7 @@ $ModCatalog = [ordered]@{
     MuchBiggerBackpack = @{ Project = 'BiggerBackpack.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'backpack.png', 'JunimoNote.png', 'i18n/*.json') }
     EventLookupReadableLocations = @{ Project = $null; Files = @('manifest.json', 'README.md', 'LICENSE', 'content.json', 'i18n/*.json') }
     DestroyableTownTrees = @{ Project = 'DestroyableTownTrees.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE') }
-    CombatEnhanced = @{ Project = 'CombatEnhanced.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'i18n/*.json') }
+    FluidCombat = @{ Project = 'FluidCombat.csproj'; Files = @('manifest.json', 'README.md', 'LICENSE', 'i18n/*.json') }
 }
 
 function Get-SelectedMods([string] $Name) {

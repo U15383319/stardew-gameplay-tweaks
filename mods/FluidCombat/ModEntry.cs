@@ -5,7 +5,7 @@ using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Tools;
 
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 public sealed class ModEntry : Mod
 {

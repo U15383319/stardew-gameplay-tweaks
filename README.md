@@ -8,7 +8,7 @@ Small, independently installable mods for Stardew Valley.
 | [MuchBiggerBackpack](mods/MuchBiggerBackpack) | Configurable backpack capacity and upgrade price | StardewHack |
 | [EventLookupReadableLocations](mods/EventLookupReadableLocations) | Readable English and Chinese location names for vanilla and expansion maps | Content Patcher, Event Lookup |
 | [DestroyableTownTrees](mods/DestroyableTownTrees) | Chop normally protected trees in Pelican Town | None |
-| [CombatEnhanced](mods/CombatEnhanced) | Move while attacking and cancel between normal attacks and specials | Optional: Generic Mod Config Menu |
+| [Fluid Combat](mods/FluidCombat) | Move while attacking, cancel attacks and specials, hold to repeat attacks, and face the mouse cursor | Optional: Generic Mod Config Menu |
 
 ## Development
 
@@ -17,7 +17,7 @@ Requires a .NET SDK supporting `net6.0` and a SMAPI-enabled game installation. C
 ```powershell
 Copy-Item Directory.Build.local.props.example Directory.Build.local.props
 .\scripts\build.ps1                              # Build all C# mods
-.\scripts\build.ps1 -Mod CombatEnhanced           # Build one mod
+.\scripts\build.ps1 -Mod FluidCombat           # Build one mod
 .\scripts\pack.ps1                               # Create separate ZIPs for all mods
 .\scripts\pack.ps1 -Mod EventLookupReadableLocations
 ```

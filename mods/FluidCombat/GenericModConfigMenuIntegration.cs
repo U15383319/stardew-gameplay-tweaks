@@ -1,6 +1,6 @@
 using StardewModdingAPI;
 
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 /// <summary>The subset of the Generic Mod Config Menu API used by this mod.</summary>
 public interface IGenericModConfigMenuApi

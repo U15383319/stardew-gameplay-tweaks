@@ -1,7 +1,7 @@
 using HarmonyLib;
 using StardewValley;
 
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 /// <summary>
 /// The game already lets the player "strafe" while charging a tool: movement input is accepted,

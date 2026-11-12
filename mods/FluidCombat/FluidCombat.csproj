@@ -4,8 +4,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>CombatEnhanced</AssemblyName>
-    <RootNamespace>CombatEnhanced</RootNamespace>
+    <AssemblyName>FluidCombat</AssemblyName>
+    <RootNamespace>FluidCombat</RootNamespace>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 

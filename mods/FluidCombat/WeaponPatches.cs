@@ -2,7 +2,7 @@ using HarmonyLib;
 using StardewValley;
 using StardewValley.Tools;
 
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 internal static class WeaponPatches
 {

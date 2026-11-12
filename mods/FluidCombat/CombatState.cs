@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using StardewValley.Tools;
 
-namespace CombatEnhanced;
+namespace FluidCombat;
 
 /// <summary>Shared combat checks used by the Harmony patches and input handling.</summary>
 internal static class CombatState

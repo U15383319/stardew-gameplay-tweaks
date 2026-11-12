@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggerBackpack", "mods\Much
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestroyableTownTrees", "mods\DestroyableTownTrees\DestroyableTownTrees.csproj", "{8757F1EA-D5CF-4AF4-9E34-3A59689B0CA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombatEnhanced", "mods\CombatEnhanced\CombatEnhanced.csproj", "{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluidCombat", "mods\FluidCombat\FluidCombat.csproj", "{DC7F6893-1AAA-489E-A7D7-AF1CBF84FF34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
